@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/layout/Header";
+import Header from "../../alx-project-0x02/components/layout/Header";
 
 function page() {
   return (
