@@ -1,11 +1,12 @@
 import React from "react";
+import Link from "next/link";
 
 function Header() {
   return (
     <section>
       <nav>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
+        <Link href="/home">Home</Link>
+        <Link href="/about">About</Link>
       </nav>
     </section>
   );
