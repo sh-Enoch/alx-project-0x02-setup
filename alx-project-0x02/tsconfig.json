@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",           // use "react-jsx" for React 17+, "react" for older
+    "moduleResolution": "Bundler",// or "NodeNext" depending on your toolchain
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src", "home.tsx"]  // ensure your .tsx files are included
+}
